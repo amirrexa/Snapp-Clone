@@ -14,6 +14,7 @@ import {KEY_PROFILE, Profile} from '../../core/constants/constants';
 import {notification} from "antd";
 import {useNavigate} from "react-router-dom";
 import SupportModal from "../modals/support/support";
+import {ReactComponent as SnappIcon} from "../../assets/images/snappTextLogo.svg"
 
 interface SidebarProps {
     profile: Profile;
@@ -29,7 +30,7 @@ const Sidebar: React.FC<SidebarProps> = (props: SidebarProps) => {
     return (
         <div className="sc-sidebar">
             <div className="sidebar-head">
-                داشبورد اسنپ
+                داشبورد <SnappIcon />
             </div>
             <div className="sidebar-body">
                 <ul>

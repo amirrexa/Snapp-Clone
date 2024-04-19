@@ -10,12 +10,20 @@
     color: white;
     padding: 15px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     height: 80px;
     max-height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 16px;
+
+    svg {
+      g {
+      fill: white;
+
+      }
+    }
   }
 
   .sidebar-body {
