@@ -1,0 +1,43 @@
+@import "../../../core/styles/index.scss";
+
+.sc-login-modal {
+  .ant-modal-content {
+    .ant-modal-header {
+      .ant-modal-title {
+        font-size: 20px;
+      }
+    }
+
+    .ant-modal-body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .ant-input-group-addon {
+        width: 80px;
+      }
+
+      .ant-input {
+        height: 64px;
+      }
+    }
+
+    .ant-modal-footer {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+
+      .sc-button {
+        height: 64px;
+
+        &:first-of-type {
+        width: 25%;
+        }
+
+        &:last-of-type {
+          width: 75%;
+        }
+      }
+    }
+  }
+}
