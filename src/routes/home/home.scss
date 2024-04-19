@@ -1,0 +1,8 @@
+@import "../../core/styles/index.scss";
+
+.sc-home {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  overflow: auto;
+}

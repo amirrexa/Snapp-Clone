@@ -1,0 +1,18 @@
+@import "../../../core/styles/index.scss";
+
+.sc-about {
+  width: 90%;
+  margin-top: 32px;
+  margin-inline: auto;
+
+  .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    margin-top: 16px;
+  }
+}

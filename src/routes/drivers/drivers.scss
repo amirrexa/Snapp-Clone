@@ -1,0 +1,32 @@
+@import "../../core/styles/index.scss";
+
+.sc-drivers {
+  padding: 32px;
+
+  table {
+    width: 100%;
+    border: 1px solid $primary;
+    margin-top: 32px;
+    border-radius: 16px;
+    background-color: $bg;
+
+    thead {
+      th {
+        width: 25%;
+        text-align: center;
+        border-bottom: 1px solid $primary;
+        padding: 16px 0;
+      }
+    }
+
+    tbody {
+      td {
+        padding: 16px 0;
+        width: 25%;
+        text-align: center;
+        border-bottom: 1px solid $primary;
+      }
+    }
+  }
+
+}

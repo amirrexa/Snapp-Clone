@@ -1,0 +1,23 @@
+@import "../../../core/styles/index.scss";
+
+.sc-features {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 90%;
+  margin-inline: auto;
+
+  .feature {
+    width: 30%;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $primary;
+      box-shadow: 2px  2px $bg;
+    }
+
+    p {
+      margin-top: 16px;
+    }
+
+  }
+}

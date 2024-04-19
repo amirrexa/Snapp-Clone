@@ -1,0 +1,9 @@
+@import "../../core/styles/index.scss";
+
+.sc-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background-color: $bg;
+  border-radius: 16px;
+}
