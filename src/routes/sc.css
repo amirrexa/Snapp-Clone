@@ -1,0 +1,50 @@
+@import "../assets/fonts/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Yekan, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  text-align: right;
+  direction: rtl;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Resetting default input styles */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Resetting default form styles */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Resetting default image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
