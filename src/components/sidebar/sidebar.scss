@@ -46,7 +46,7 @@
         transition: all 0.2s ease;
 
         &.active {
-          background-color: lighten($primary, 50%);
+          background-color: $primary;
           color: $primary;
         }
 
