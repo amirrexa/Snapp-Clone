@@ -6,8 +6,11 @@ import {About} from "./about/about";
 export const Home = () => {
     return (
         <div className={"sc-home"}>
-            <BetterExperience />
-            <Features />
+            <a href={'http://localhost:3000'} target={'_blank'}>
+                Go To LocalHost
+            </a>
+            <BetterExperience/>
+            <Features/>
             <About />
         </div>
     )
